@@ -1,0 +1,164 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Login",
+        "description": "",
+        "id": "as-a-user,;login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19485660670,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "am on the Landing Page",
+            "match": {
+              "location": "LoginStepDef.am_on_the_Landing_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1587444983,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter my username and password",
+            "match": {
+              "location": "LoginStepDef.i_enter_my_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1934415863,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click Login button",
+            "match": {
+              "location": "LoginStepDef.i_click_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54482988,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should see the Home Page",
+            "match": {
+              "location": "LoginStepDef.i_should_see_the_Home_Page()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Login and Logout",
+        "description": "",
+        "id": "as-a-user,;login-and-logout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 988957094,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "am on the Landing Page",
+            "match": {
+              "location": "LoginStepDef.am_on_the_Landing_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 429695395,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter my username and password",
+            "match": {
+              "location": "LoginStepDef.i_enter_my_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1174652517,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click Login button",
+            "match": {
+              "location": "LoginStepDef.i_click_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59501386,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should see the Home Page",
+            "match": {
+              "location": "LoginStepDef.i_should_see_the_Home_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 241136522,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click logout",
+            "match": {
+              "location": "LoginStepDef.i_click_logout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1280335192,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should be on the Landing Page",
+            "match": {
+              "location": "LoginStepDef.i_should_be_on_the_Landing_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "As a user,",
+    "description": "I want to be able to Login",
+    "id": "as-a-user,",
+    "keyword": "Feature",
+    "uri": "LoginandLogout.feature"
+  }
+]
